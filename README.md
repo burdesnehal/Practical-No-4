@@ -1,44 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<style>
-  body {text-align: center;}
-</style>
-<body bgcolor="powderblue" >
-  <form>   <h1>REGISTRATION FORM</h1>
-    <h2>Exam</h2>
-    <lable>name(Full name):</lable>&nbsp;&nbsp;&nbsp;<input type="text"><br><br>
-<lable>USN no.:</lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email"><br><br>
-<lable> D.O.B. :</lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="calender"><br><br>
-<lable>e-mail (college email id)</lable><input type="email"><br><br>
-<lable>gender</lable><input type="radio" name="gender">female
-<input type="radio" name="gender">male<br><br>
-<lable>semister year</lable><br><input type="radio">1st year<br>
-<input type="radio">2nd year<br>
-<input type="radio">3rd year<br>
-<input type="radio">4th year<br><br>
-<lable>BRNCH</lable><select>
-<option>CSE</option>
-<option>ETC</option>
-<option>AIDS</option>
-<option>AIML</option>
-<option>ME</option>
-<option>EE</option>
-</select>
-<br>
-<lable>subjects</lable><input type="checkbox">chemistry<br>
-<input type="checkbox">physics<br><input type="checkbox">mathamatiscs<br><input type="checkbox">EGD<br>
-<br><br>
-<lable>password:</lable><input type="password"><br><br>
-<button>submit</button>
-<button>reset</button>
-  </form>
+<html>
+<head> <title> Registration Form 2023 &rb </title>
+</head >
+<body>
+ <h1 style="color:Green" align="center"> Registration Form </h1><hr><br>
+<b>&rb-Snehal Burde ET22035<b>
+<p style=" color:white ; background-color:darkblue"> <b>Registration Details</b></p>
+<lable> Name of Candidate  : </lable> <input type="text"><br><hr>
+<lable> Registration mobile number : </lable> <input type="number"><br><hr>
+<lable> Registration email address : </lable> <input type="email"><br><hr>
+<lable>Date of Birth  : </lable> <input type="date"><br><hr>
+<lable> Gender   : </lable> <input type="radio" name = "Gender" > Male <input type = "radio" name ="Gender"> Female <br><hr><br>
+<p style=" color:white ; background-color:darkblue"> <b> Personal Details </b></p>
+<lable> Religion : </lable> <input type="radio" name = "religion" > Hinduism <input type = "radio" name ="Religion"> Islam <input type = "radio" name ="religion"> Christianity <input type = "radio" name ="Religion">  Sikhism <input type ="radio" name = "Religion"> Buddhism <input type="radio" name = "religion" > Jainism <br><hr>
+<lable> Whether belonging to Economically Weaker Section ?</lable> <input type="radio" name = "Gender" > yes <input type = "radio" name ="Gender"> no <br><hr>
+<lable> Mother Tongue:</lable>
+<select>   <!-- Snehal Ravindra Burde ET22035--> 
+<option> Language </option>
+<option>Marathi</option>
+<option>Hindi</option>
+<option>Gujarati</option>
+<option>Telugu</option>
+<option>Punjabi</option>
+<option>Urdu</option>
+<option>Sanskrit</option>
+<option>Bengali</option>
+<option>Tamil</option>
+</select><hr>
+<lable> Name of the Parent/Guardian: </lable> <input type="text"><hr>
+<lable> Parent/Guardian Mobile No :  </lable> <input type="number"><hr>
+<lable> Aadhar Number: </lable> <input type="number"><hr><br>
+<p style=" color:white ; background-color:darkblue"> <b>Address for Correspondence </b></p>
+<lable> Enter Pincode:</lable> <input tpye ="number"> <hr>
+<lable> State Name :</lable>
+<select> 
+<option> --select--</option>
+<option>Tamil Nadu</option>
+<option>Gujarat</option>
+<option>Karnataka</option>
+<option>Maharastra</option>
+<option>Haryana</option>
+<option>Bihar</option>
+<option>Kerla</option>
+<option>West Bengal</option>
+<option>Assam</option>
+</select><hr>
+<lable> Address :</lable> <input type ="name"><hr>
+<lable> Town / City: </lable><input type ="name"><hr>
 </body>
 </html>
-
- 
