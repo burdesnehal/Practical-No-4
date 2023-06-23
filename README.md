@@ -1,9 +1,8 @@
 <html>
-<head> <title> Registration Form 2023 &rb </title>
+<head> <title> Survey form </title>
 </head >
 <body>
- <h1 style="color:Green" align="center"> Registration Form </h1><hr><br>
-<b>&rb-Snehal Burde ET22035<b>
+ <h1 style="color:Green" align="center">  Survey Form </h1><hr><br>
 <p style=" color:white ; background-color:darkblue"> <b>Registration Details</b></p>
 <lable> Name of Candidate  : </lable> <input type="text"><br><hr>
 <lable> Registration mobile number : </lable> <input type="number"><br><hr>
